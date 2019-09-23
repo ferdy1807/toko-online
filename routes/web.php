@@ -14,6 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/product/display', ProductController@showAll);
-Route::post('/product/save', ProductController@saveNew);
